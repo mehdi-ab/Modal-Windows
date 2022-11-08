@@ -1,0 +1,27 @@
+*, ::after, ::before {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: sans-serif;
+    color: #333;
+    line-height: 1.5;
+    height: 100vh;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    background: linear-gradient(to top left, #28b487, #7dd56f);
+}   
+
+.show-modal {
+    font-size: 1.5rem;
+    font-weight: 600;
+    border: none;
+    border-radius: 10rem;
+    padding: .8rem 2rem;
+    margin: 5rem 2rem;
+    cursor: pointer;
+}
+
